@@ -1,0 +1,29 @@
+{
+    "name" : "stockpile",
+    "description" : "Stockpile database wrapper",
+    "license" : "MIT",
+    "keywords" : ["stockpile", "database", "wrapper"],
+    "authors" : [
+        {
+            "name" : "David Ludwig",
+            "email" : "davidludwigii@gmail.com"
+        }
+    ],
+    "require" : {
+        "icanboogie/inflector": "^1.4"
+    },
+    "require-dev" : {},
+    "autoload": {
+        "files" : [
+
+        ],
+        "psr-4" : {
+            "Stockpile\\" : "src/Stockpile/"
+        }
+    },
+    "extra" : {
+        "branch-alias" : {
+            "dev-master" : "1.0-dev"
+        }
+    }
+}
